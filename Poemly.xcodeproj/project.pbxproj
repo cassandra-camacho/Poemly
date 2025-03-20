@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		114ED9612D8CCF6400988EAB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 114ED9602D8CCF6400988EAB /* README.md */; };
+		114ED9652D8CD12C00988EAB /* poemly.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 114ED9642D8CD11D00988EAB /* poemly.gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		114ED9442D8CCE8000988EAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		114ED9332D8CCE7D00988EAB /* Poemly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poemly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114ED9432D8CCE8000988EAB /* PoemlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		114ED94D2D8CCE8000988EAB /* PoemlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114ED9602D8CCF6400988EAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		114ED9642D8CD11D00988EAB /* poemly.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = poemly.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		114ED92A2D8CCE7D00988EAB = {
 			isa = PBXGroup;
 			children = (
+				114ED9602D8CCF6400988EAB /* README.md */,
+				114ED9642D8CD11D00988EAB /* poemly.gitignore */,
 				114ED9352D8CCE7D00988EAB /* Poemly */,
 				114ED9462D8CCE8000988EAB /* PoemlyTests */,
 				114ED9502D8CCE8000988EAB /* PoemlyUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114ED9652D8CD12C00988EAB /* poemly.gitignore in Resources */,
+				114ED9612D8CCF6400988EAB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
